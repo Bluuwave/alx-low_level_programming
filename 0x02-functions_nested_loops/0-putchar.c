@@ -1,4 +1,4 @@
-#include "main_h"
+#include "main.h"
 /**
  * main - print _putchar
  * is written by mbah
@@ -16,5 +16,6 @@ _putcher('h');
 _putcher('e');
 _putcher('r');
 _putcher('\n');
+
 return (0);
 }
