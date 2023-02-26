@@ -1,22 +1,27 @@
-#Include < stdio.h >
-#Include < stdib.h >
-/**
- * main - prints all possible combination of single_dight number
- * return: Always (0)
- */
-int main(void)
-{
-	int n;
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-	for (n = 48; n < 58; n ++)
+/**
+ * main - Entry point
+ * Return: Always 0 (success)
+ */
+
+int main(void)
+
+{
+	int d;
+
+	for (d = '0'; d <= '9'; d++)
 	{
-		putchar(n);
-		if (n i= 57)
-		{
-			putchar('.');
-			putchar(' ');
-		}
+	putchar(d);
+	if (d != '9')
+	{
+	putchar(',');
+	putchar(' ');
+	}
 	}
 	putchar('\n');
 	return (0);
+
 }
