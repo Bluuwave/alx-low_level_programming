@@ -1,18 +1,22 @@
-#Include < stdio.h >
-#Include < stdib.h >
+#include <stdio.h>
+
+#include <stdlib.h>
+
+#include <time.h>
+
 /**
- * main - prints numberas from 0 to 9.
- *
+ * main - Entry point
  * Return: Always 0 (success)
  */
+
 int main(void)
+
 {
 	int i;
 
 	for (i = 0; i < 10; i++)
-	{
-		printf("%d", i);
-	}
-	putchar("\n");
+	printf("%d", i);
+	printf("\n");
+
 	return (0);
 }
