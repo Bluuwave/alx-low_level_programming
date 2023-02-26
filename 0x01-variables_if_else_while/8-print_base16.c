@@ -1,22 +1,25 @@
-#Include < stdio.h >
-#Include < stdib.h >
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - prints numbers 0 to 9 and letters between a to f.
- *
+ * main - Entry point
  * Return: Always 0 (success)
  */
-int main(void)
-{
-	int i;
 
-	for (i = 48; i < 58; i++)
-	{
-		putchar(i);
-	}
-	for (i = 97; i < 103; i++)
-	{
-		putchar(i);
-	}
-	putchar("\n");
+int main(void)
+
+{
+	int d;
+	char low;
+
+	for (d = '0'; d <= '9'; d++)
+	putchar(d);
+
+	for (low = 'a'; low <= 'f'; low++)
+	putchar(low);
+	putchar('\n');
+
 	return (0);
+
 }
