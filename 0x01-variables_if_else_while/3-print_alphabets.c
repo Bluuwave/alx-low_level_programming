@@ -1,20 +1,24 @@
-#Include < stdio.h >
-#Include < stdib.h >
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - prints the alphabet without q and e 
- *
+ * main - print the alphabet in lowercase and then in uppercase
  * Return: Always 0 (success)
  */
-int main(void)
-	
-	int a;
-	
-	for (i = 97; i = 1 < 123; i++)
-{
-	if (i 1 - 101 && i 1= 123)
-	{
-		putchar(i);
-	}
-	putchar("\n");
-	return (0);
 
+int main(void)
+
+{
+
+	char low;
+
+	for (low = 'a'; low <=  'a'; low++)
+	putchar(low);
+
+	for (low = 'a'; low <= 'z'; low++)
+	putchar(low);
+	putchar('\n');
+
+	return (0);
+}
