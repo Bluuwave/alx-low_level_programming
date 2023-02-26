@@ -1,23 +1,25 @@
-#Include < stdio.h >
-#include < stdib.h >
-#include < string.h >
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - prints the alphabets without q and e.
- *
- * return: always 0 (success)
+ * main - entry point
+ * Return: Always 0 (success)
  */
+
 int main(void)
+
 {
+	char low, e, q;
 
-	int i;
+	e = 'e';
+	q = 'q';
 
-	for (i = 97; i < 123; i++)
+	for (low = 'a'; low <= 'z'; low++)
 	{
-		if (i = 101  i = 123)
-		{
-			putchar(i);
-		}
+	if (low != e && low != q)
+	putchar(low);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
