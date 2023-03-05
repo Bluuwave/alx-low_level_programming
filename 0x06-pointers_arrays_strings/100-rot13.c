@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * root13 - Entry Point
- * @s: pointers to string parans
+ * root13 - encode rot13
+ * @s: pointers to string params
  * Return: *s
  */
 
